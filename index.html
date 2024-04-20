@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propiedades Poblete</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="header flex-column">
+    <nav class="navbar flex-row">
+      <a href="#home" class="logo">
+        Propiedades Poblete
+      </a>
+      <ul class="links-container flex-row">
+        <li>
+          <a href="#home" class="nav-links selected">
+            Inicio
+          </a>
+        </li>
+        <li>
+          <a href="secciones/venta.html" class="nav-links">
+            Ventas
+          </a>
+        </li>
+        <li>
+          <a href="secciones/alquiler.html" class="nav-links">
+            Alquiler
+          </a>
+        </li>
+      </ul>
+    </nav>
+   <section id="home" class="main-section flex-column">
+    <div class="main-title">
+      <h1>Encuentra la casa de tus sueños</h1>
+    </div>
+    <div class="main-buttons flex-row">
+      <a href="#ventas" class="btn-primary">
+        Propiedades en venta
+      </a>
+      <a href="#alquiler" class="btn-secondary">
+        Propiedades en alquiler
+      </a>
+    </div>
+   </section>
+  </header>
+  <main>
+    <section id="ventas" class="propiedas-section flex-column">
+      <div class="section-title">
+        <h2>Propiedades en venta</h2>
+      </div>
+      <div class="card-container flex-row">
+      </div>
+      <div id="container-ventas" class="card-container flex-row"></div>
+      <div class="button-container">
+        <a id="ver-ventas" class="btn-ventas-alquiler">Ver todas las propiedades en venta</a>
+      </div>
+    </section>
+    <hr>
+    <section id="alquiler" class="propiedas-section flex-column">
+      <div class="section-title">
+        <h2>Propiedades en alquiler</h2>
+      </div>
+      <div class="card-container-alquiler flex-row">
+      </div>
+      <div id="container-alquiler" class="flex-row">
+      </div>
+      <div class="button-container">
+        <a id="ver-alquiler" class="btn-ventas-alquiler">Ver todas las propiedades en alquiler</a>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/app.js"></script>
+  <script src="https://kit.fontawesome.com/06653f5d6b.js" crossorigin="anonymous"></script>
+</body>
+</html>

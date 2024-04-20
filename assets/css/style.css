@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.header{
+  gap: 5rem;
+  background-image: url(../img/background-img.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  background-color: #F5F5F5;
+  padding: 1rem;
+  gap: 5rem;
+}
+
+.logo{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-links{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.selected{
+  font-weight: 800;
+  border: 1px solid #3F2305;
+  padding: 10px 30px;
+  border-radius: 2px;
+}
+
+.selected:hover{
+  transition: .4s ease-in-out;
+  background: #DFD7BF;
+}
+
+.logo, .nav-links{
+  color: #3F2305;
+}
+
+.links-container, .main-section, .main-buttons{
+  gap: 1rem;
+}
+
+.main-section{
+  padding: 15rem 10rem;
+}
+
+.main-title h1{
+  font-size: 2.2rem;
+  color: #F5F5F5;
+}
+
+.main-title h1::selection, .logo::selection, .nav-links::selection{
+  background-color: #3F2305;
+  color: #DFD7BF;
+}
+
+.btn-primary, .btn-secondary{
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  user-select: none;
+}
+
+.btn-primary{
+  background-color: #3F2305;
+  color: #DFD7BF;
+}
+
+.btn-secondary{
+  background-color: #DFD7BF;
+  color: #3F2305;
+}
+
+.btn-primary:hover, .btn-secondary:hover{
+  transition: .4s ease-in-out;
+  transform: scaleY(1.1);
+}
+
+.main{
+  background-color: #DFD7BF;
+}
+
+.propiedas-section{
+  color: #3F2305;
+  padding: 5rem;
+  gap: 1rem;
+}
+
+#container-alquiler, .card-container,.card-container-dos, .card-container-alquiler, .card-container-alquiler-dos{
+  gap: 2rem;
+}
+
+.card{
+  width: 500px;
+  border: 1px solid #3F2305;
+  border-radius: 5px;
+}
+
+.card-content{
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.img-container img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-description{
+  font-size: 1rem;
+  font-weight: 500;
+  max-width: auto;
+}
+
+.card-para, .card-para-true, .card-para-false{
+  font-weight: 600;
+}
+
+.card-para-true{
+  color: #189d00;
+}
+
+.card-para-false{
+  color: #ca0000;
+}
+
+.btn-ventas-alquiler{
+  background-color: #3F2305;
+  color: #F5F5F5;
+  padding: 0.1rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-ventas-alquiler:hover{
+  transition: .4s ease-in;
+  background-color: #DFD7BF;
+  color: #3F2305;
+}
+
+hr{
+  margin: 0 5rem;
+  height: 3px;
+  background-color: #3F2305;
+}
