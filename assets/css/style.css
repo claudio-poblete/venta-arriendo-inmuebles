@@ -181,8 +181,36 @@ li{
   color: #3F2305;
 }
 
-hr{
+footer hr, hr{
   margin: 0 5rem;
   height: 3px;
   background-color: #3F2305;
+}
+
+footer{
+  background-color: #DFD7BF;
+  color: #3F2305;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.footer-logo, .footer-rrss, .footer-copyright{
+  border-bottom: 1px solid #3F2305;
+  width: 60rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  gap: 3rem;
+}
+
+.footer-logo h3{
+  font-size: 1.8rem;
+}
+
+.rrss p, i{
+  font-size: 1.4rem;
+  cursor: pointer;
 }
